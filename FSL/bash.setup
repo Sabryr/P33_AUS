@@ -1,0 +1,10 @@
+
+# FSL Setup
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+module purge
+FSLDIR=/cluster/software/fsl/6.0.3
+PATH=${FSLDIR}/bin:${PATH}
+export FSLDIR PATH
+. ${FSLDIR}/etc/fslconf/fsl.sh
+

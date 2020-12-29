@@ -1,0 +1,4 @@
+#sabryr 19-03-2020
+conda deactivate &>/dev/null
+conda deactivate &>/dev/null
+module purge &>/dev/null

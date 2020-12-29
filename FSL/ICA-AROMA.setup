@@ -1,0 +1,5 @@
+#sabryr 18-03-2020
+module purge
+conda deactivate &>/dev/null
+conda deactivate &>/dev/null
+conda activate /cluster/software/fsl/6.0.3/ICA-AROMA

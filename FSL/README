@@ -1,0 +1,13 @@
+To build from source
+module load foss/2017b
+
+export TMPDIR=/cluster/software/fsl/tmp
+export TMP=$TMPDIR
+
+
+export LD_LIBRARY_PATH=/cluster/software/fsl/6.0.3/mcr/v93/runtime/glnxa64:/cluster/software/fsl/6.0.3/mcr/v93/bin/glnxa64:/cluster/software/fsl/6.0.3/mcr/v93/sys/os/glnxa64:
+
+
+$FSLDIR/fslpython/bin/conda create  numpy=1.14=py27_blas_openblas_200 matplotlib==2.2 numpy==1.14 pandas==0.23 seaborn==0.9.0 future --prefix=/cluster/software/fsl/6.0.3/ICA-AROMA
+
+ conda install  pthread-stubs
