@@ -1,0 +1,2 @@
+export TMPDIR=/cluster/software/conda/tensorflow/tmp
+export TMP=$TMPDI
